@@ -152,7 +152,6 @@ class _StickyHeadersTableState extends State<StickyHeadersTable> {
                         child: Container(
                           width: widget.cellDimensions.stickyWidth(i),
                           height: widget.cellDimensions.stickyLegendHeight,
-                          alignment: widget.cellAlignments.rowAlignment(i),
                           child: widget.columnsTitleBuilder(i),
                         ),
                       ),
