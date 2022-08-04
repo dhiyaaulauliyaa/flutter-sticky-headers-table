@@ -246,8 +246,8 @@ class _StickyHeadersTableState extends State<StickyHeadersTable> {
                                     height: widget.cellDimensions
                                         .contentSize(rowIdx, columnIdx)
                                         .height,
-                                    alignment: widget.cellAlignments
-                                        .contentAlignment(rowIdx, columnIdx),
+                                    // alignment: widget.cellAlignments
+                                    //     .contentAlignment(rowIdx, columnIdx),
                                     child: widget.contentCellBuilder(
                                         columnIdx, rowIdx),
                                   ),
